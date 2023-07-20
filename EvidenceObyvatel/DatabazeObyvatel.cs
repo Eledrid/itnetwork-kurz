@@ -21,7 +21,7 @@ namespace EvidenceObyvatel
         /// <summary>
         /// List obyvatel který je readonly
         /// </summary>
-        public List<Obyvatel> Obyvatele  // Nové pro přístup
+        public List<Obyvatel> Obyvatele
         {
             get { return obyvatele; }
         }
@@ -169,6 +169,9 @@ namespace EvidenceObyvatel
                 Console.WriteLine("\nÚprava provedena úspešně\n");
             }
         }
+        /// <summary>
+        /// Vymaže obyvatele
+        /// </summary>
         public void VymazObyvatele()
         {
             Console.WriteLine("\nVYMAZAT OBYVATELE");

@@ -41,6 +41,9 @@ namespace EvidenceObyvatel
             Console.WriteLine("\t[4] - Úpravy evidovaných obyvatel");
             Console.WriteLine("\t[5] - Ukončení programu");
         }
+        /// <summary>
+        /// Podmenu výběru 3
+        /// </summary>
         public void DalsiUrovenVyberu3()
         {
             Console.WriteLine("\tVYHLEDÁNÍ OBYVATEL");

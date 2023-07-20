@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace EvidenceObyvatel
 {
+    /// <summary>
+    /// Dotazi na kolekci obyvatel
+    /// </summary>
     internal class DotaziNaDatabazi
     {
         /// <summary>
